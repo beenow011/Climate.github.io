@@ -101,3 +101,22 @@ body{
 .type{
     margin-top: 0px;
 }
+
+@media only screen and (max-width: 500px) {
+    .card {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+    }
+    .details{
+        /* flex-direction: column; */
+        display: inline;
+    }
+    .col{
+        margin-bottom: 19px;
+        margin-left: 37px;
+    }
+    .search button{
+        background-color: #FFF0;
+    }
+  }
